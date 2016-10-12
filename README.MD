@@ -12,7 +12,7 @@ To set zsh as your default shell, run
 then open `/etc/passwd` and find the line that start with your user name (run `whoami` if unsure) and change `/bin/bash` to `/bin/zsh`
 
 You can also set your _HOME_ variable (where zsh will look for config variables) from `/cygdrive/c/Users/user` to `/home/user/` if you prefer to keep all of zsh configs within your CygWin directory. I opt for the latter.
-
+[passwd](https://raw.githubusercontent.com/edqu3/zsh-cygwin-conemu/master/passwd.png)
 ## Install [apt-cyg](https://github.com/transcode-open/apt-cyg)
 apt-cyg works similar to apt-get.
 
