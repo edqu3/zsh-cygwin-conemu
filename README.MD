@@ -47,5 +47,7 @@ save and exit
 
 My personal set up:
 ConEmu [Spacemacs-dark color scheme](https://github.com/joonro/ConEmu-Color-Themes/blob/master/spacemacs-dark.xml)
+
 [Zeta theme](https://github.com/skylerlee/zeta-zsh-theme) + [Powerline font Ubuntu Mono](https://github.com/powerline/fonts/tree/master/UbuntuMono)
+
 ![results](https://raw.githubusercontent.com/edqu3/zsh-cygwin-conemu/master/screenshot.png)
