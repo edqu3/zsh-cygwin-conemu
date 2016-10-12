@@ -36,3 +36,5 @@ Click + sign to create a new task, check `default shell` box and paste
 save and exit
 
 ## [Install some color schemes for ConEmu](https://github.com/joonro/ConEmu-Color-Themes)
+
+![results](zsh-cygwin-conemu/screenshot.png)
