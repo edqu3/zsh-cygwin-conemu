@@ -29,6 +29,12 @@ apt-cyg works similar to apt-get.
 
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
+oh-my-zsh comes bundled with a lot of themes, and they're located at `~/.oh-my-zsh/themes/`
+To use any of the default themes, simply set your `ZSH_THEME` variable in `~/.zshrc` to the theme name.
+For example, to use `agnoster.zsh-theme` you would set `ZSH_THEME="agnoster"`
+
+You can download more themes from [here](https://github.com/unixorn/awesome-zsh-plugins#themes)
+
 ## Install [ConEmu](https://www.fosshub.com/ConEmu.html)
 
 Open ConEmu as an administrator. Open Settings, Navigate to _StartUp > Tasks_
@@ -39,4 +45,7 @@ save and exit
 
 ## [Install some color schemes for ConEmu](https://github.com/joonro/ConEmu-Color-Themes)
 
+My personal set up:
+ConEmu [Spacemacs-dark color scheme](https://github.com/joonro/ConEmu-Color-Themes/blob/master/spacemacs-dark.xml)
+[Zeta theme](https://github.com/skylerlee/zeta-zsh-theme) + [Powerline font Ubuntu Mono](https://github.com/powerline/fonts/tree/master/UbuntuMono)
 ![results](https://raw.githubusercontent.com/edqu3/zsh-cygwin-conemu/master/screenshot.png)
