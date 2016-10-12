@@ -37,4 +37,4 @@ save and exit
 
 ## [Install some color schemes for ConEmu](https://github.com/joonro/ConEmu-Color-Themes)
 
-![results](zsh-cygwin-conemu/screenshot.png)
+![results](https://raw.githubusercontent.com/edqu3/zsh-cygwin-conemu/master/screenshot.png)
