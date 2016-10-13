@@ -35,6 +35,39 @@ For example, to use `agnoster.zsh-theme` you would set `ZSH_THEME="agnoster"`
 
 You can download more themes from [here](https://github.com/unixorn/awesome-zsh-plugins#themes)
 
+## Install [antigen](https://github.com/zsh-users/antigen)
+Antigen solves oh-my-zsh's major flaw, scalability.
+Antigen serves as a plugin/theme manager for oh-my-zsh.
+
+clone the antigen repo in your ~
+`git clone https://github.com/zsh-users/antigen.git`
+
+Now add the following lines **after** _source $ZSH/oh-my-zsh.sh_ in your _~/.zhrc_ 
+
+```shell
+# antigen installation
+source ~/antigen/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+antigen bundle git
+# Install your bundles
+antigen bundle command-not-found
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+## The two bundle commmands above basically do the same thing.
+## antigen will install the plugin and place it in your default plugins/ 
+## if its not already installed, otherwise it will just load the plugin
+
+# Load the theme (antigen looks in your oh-my-zsh themes, custom/themes folder)
+antigen theme zeta
+
+# Tell antigen that you're done.
+antigen apply
+```
+Now, you can use Antigen as a middleman for all your plugin/theme needs.
+
 ## Install [ConEmu](https://www.fosshub.com/ConEmu.html)
 
 Open ConEmu as an administrator. Open Settings, Navigate to _StartUp > Tasks_
