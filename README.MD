@@ -35,7 +35,7 @@ For example, to use `agnoster.zsh-theme` you would set `ZSH_THEME="agnoster"`
 
 You can download more themes from [here](https://github.com/unixorn/awesome-zsh-plugins#themes)
 
-## Install [antigen](https://github.com/zsh-users/antigen) [**Awaiting v1.2.1**](https://github.com/zsh-users/antigen/issues/283)
+## Install [antigen](https://github.com/zsh-users/antigen) | ([**Awaiting v1.2.1**](https://github.com/zsh-users/antigen/issues/283))
 Antigen solves oh-my-zsh's major flaw, scalability.
 Antigen serves as a plugin/theme manager for oh-my-zsh.
 
