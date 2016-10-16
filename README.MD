@@ -5,6 +5,8 @@ Install packages **git, lynx, zsh, and wget**
 
 `DON'T` run zsh yet.
 
+Navigate to your Cygwin directory and double click on `Cygwin.bat`
+
 To set zsh as your default shell, run
 
 `mkpasswd -l -p "$(cygpath -H)" > /etc/passwd`
