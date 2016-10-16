@@ -31,11 +31,15 @@ apt-cyg works similar to apt-get.
 
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
-oh-my-zsh comes bundled with a lot of themes, and they're located at `~/.oh-my-zsh/themes/`
-To use any of the default themes, simply set your `ZSH_THEME` variable in `~/.zshrc` to the theme name.
+oh-my-zsh comes bundled with a lot of themes and useful plugins. They're located at `~/.oh-my-zsh/themes/`
+To use any of the default themes, and `~/.oh-my-zsh/plugins/` simply set your `ZSH_THEME` variable in `~/.zshrc` to the theme name.
 For example, to use `agnoster.zsh-theme` you would set `ZSH_THEME="agnoster"`
+You can use any of the bundled plugins or use external ones(read the docs) by adding this to `/.zshrc`:
+`plugins=(git git-flow zsh-completions zsh-syntax-highlighting)`
 
 You can download more themes from [here](https://github.com/unixorn/awesome-zsh-plugins#themes)
+
+You can now use zsh as your default shell.
 
 ## Install [antigen](https://github.com/zsh-users/antigen) | ([**Awaiting v1.2.1**](https://github.com/zsh-users/antigen/issues/283))
 Antigen solves oh-my-zsh's major flaw, scalability.
